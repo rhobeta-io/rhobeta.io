@@ -1,5 +1,5 @@
 {
-  "name": "mkdocs-material",
+  "name": "rhobeta.io",
   "version": "9.5.20",
   "description": "Documentation that simply works",
   "keywords": [
@@ -7,21 +7,21 @@
     "documentation",
     "theme"
   ],
-  "homepage": "https://squidfunk.github.io/mkdocs-material/",
+  "homepage": "https://github.com/rhobeta-io/rhobeta.io/",
   "bugs": {
-    "url": "https://github.com/squidfunk/mkdocs-material/issues",
-    "email": "martin.donath@squidfunk.com"
+    "url": "https://github.com/rhobeta-io/rhobeta.io/issues",
+    "email": "brascoroger@gmail.com"
   },
   "license": "MIT",
   "private": true,
   "author": {
-    "name": "Martin Donath",
-    "email": "martin.donath@squidfunk.com"
+    "name": "RBS Team",
+    "email": "brascoroger@gmail.com"
   },
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/squidfunk/mkdocs-material.git"
+    "url": "https://github.com/rhobeta-io/rhobeta.io.git"
   },
   "scripts": {
     "build": "rimraf material && ts-node -T tools/build --optimize",

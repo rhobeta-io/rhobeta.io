@@ -68,11 +68,11 @@ imaging = [
 ]
 
 [project.urls]
-Documentation = "https://squidfunk.github.io/mkdocs-material/"
-Source = "https://github.com/squidfunk/mkdocs-material"
-Changelog = "https://squidfunk.github.io/mkdocs-material/changelog/"
-Issues = "https://github.com/squidfunk/mkdocs-material/issues"
-Funding = "https://github.com/sponsors/squidfunk"
+Documentation = "https://rhobeta-io.github.io/rhobeta.io/"
+Source = "https://github.com/rhobeta-io/rhobeta.io"
+Changelog = "https://rhobeta-io.github.io/rhobeta.io/changelog/"
+Issues = "https://github.com/rhobeta-io/rhobeta.io/issues"
+
 
 [project.entry-points."mkdocs.plugins"]
 "material/blog" = "material.plugins.blog.plugin:BlogPlugin"
