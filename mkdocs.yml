@@ -21,7 +21,7 @@
 # Project information
 site_name: Rho Beta Solutions
 site_url: https://rhobeta-io.github.io/rhobeta.io/
-site_author: Rho Beta Team
+site_author: RBS Team
 site_description: >-
   Write your documentation in Markdown and create a professional static site in
   minutes – searchable, customizable, in 60+ languages, for all devices
@@ -31,7 +31,7 @@ repo_name: squidfunk/mkdocs-material
 repo_url: https://github.com/rhobeta-io/rhobeta.io
 
 # Copyright
-copyright: Copyright &copy; 2016 - 2024 Martin Donath
+copyright: Copyright &copy; 2024 - RBS Team
 
 # Configuration
 theme:
