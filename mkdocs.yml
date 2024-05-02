@@ -25,9 +25,9 @@ site_author: RBS Team
 site_description: >-
   Rho Beta Solutions description
 
-# Repository
-repo_name: rhobeta-io/rhobeta.io
-repo_url: https://github.com/rhobeta-io/rhobeta.io
+# # Repository
+# repo_name: rhobeta-io/rhobeta.io
+# repo_url: https://github.com/rhobeta-io/rhobeta.io
 
 # Copyright
 copyright: Copyright &copy; 2024 - RBS Team
