@@ -2,10 +2,16 @@ authors:
   squidfunk:
     name: Martin Donath
     description: Creator
-    avatar: https://avatars.githubusercontent.com/u/932156
-    url: https://github.com/squidfunk
+    avatar: https://github.com/squidfunk.png
+  brascooriol:
+    name: Oriol Brasco
+    description: Coowner
+    avatar: https://github.com/brascooriol.png
+  rbrasco:
+    name: Roger Brasco
+    description: Owner
+    avatar: https://github.com/rbrasco.png
   alexvoss:
-    name: Alex Voss
-    description: Community support
-    avatar: https://avatars.githubusercontent.com/u/4134224
-    url: https://github.com/alexvoss
+    name: alexvoss
+    description: another
+    avatar: https://github.com/rbrasco.png
