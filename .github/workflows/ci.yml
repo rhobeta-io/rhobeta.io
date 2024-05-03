@@ -17,6 +17,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - uses: actions/cache@v4
         with:
@@ -27,4 +30,6 @@ jobs:
       - run: pip install mkdocs-material 
       - run: pip install 'mkdocs-material[recommended]'
       - run: pip install 'mkdocs-material[imaging]'
+      - run: npm ci
+      - run: npm build
       - run: mkdocs gh-deploy --force

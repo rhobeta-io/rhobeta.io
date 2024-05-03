@@ -15,7 +15,7 @@ copyright: Copyright &copy; 2024 - RBS Team
 # Configuration
 theme:
   name: material
-  # custom_dir: material/overrides
+  custom_dir: material/overrides
   features:
     - announce.dismiss
     - content.action.edit
