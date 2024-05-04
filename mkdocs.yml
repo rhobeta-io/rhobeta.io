@@ -95,6 +95,10 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/rhobeta-io
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/rhobeta-io
+    - icon: material/gmail
+      link: mailto:contact@rhobeta.io
 
 # Extensions
 markdown_extensions:

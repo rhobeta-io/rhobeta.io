@@ -1,9 +1,9 @@
 ---
 template: home.html
-title: Material for MkDocs
+title: Knowledge repository
 social:
   cards_layout_options:
-    title: Documentation that simply works
+    title: Knowledge repository
 ---
 
-Welcome to Material for MkDocs.
+Welcome to our humble recopilation of knowledge of many industry sectors.
