@@ -1,7 +1,7 @@
 # Project information
 site_name: Rho Beta Solutions
 site_url: https://rhobeta.io/
-site_author: RBS Team
+site_author: Rho Beta Solutions
 site_description: >-
   Explore our knowledge hub and discover valuable insights. Checkout the blog for cool projects.
 
@@ -10,7 +10,8 @@ site_description: >-
 # repo_url: https://github.com/rhobeta-io/rhobeta.io
 
 # Copyright
-copyright: Copyright &copy; 2024 - RBS Team
+copyright: |
+  &copy; 2024 - <a rel="me" href="https://github.com/rhobeta-io">Rho Beta Solutions</a>
 
 # Configuration
 theme:
