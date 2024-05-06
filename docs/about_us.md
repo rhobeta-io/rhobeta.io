@@ -4,9 +4,16 @@ Two brothers, one vision:
 
 **Create a data driven decision world**
 
-**Roger Brascó**, graduated in Mathematics, has worked extensively
+**[Roger Brascó](https://www.linkedin.com/in/rbrasco/)**, his journey in technology began at the age of 12 with basic HTML and CSS. Over the years, he has
+expanded his skillset to include programming languages such as Python, Bash, C, and Javascript. As a lover of logical
+and
+abstract thinking, he pursued a degree in Mathematics at the University of Barcelona. Currently, he is working as a
+Junior
+DevOps Engineer, focusing on learning, improving, and becoming proficient in cloud technologies.
+![img.png](img.png)
 
-**Oriol Brascó** has worked as an Analytics Product Owner at GE Vernova, leading the development of data-driven
+**[Oriol Brascó](https://www.linkedin.com/in/brascooriol/)** pursued a degree in Aeronautical Engineering at the Universitat Politècnica de Catalunya and he is
+currently working as an Analytics Product Owner at GE Vernova, leading the development of data-driven
 solutions that can predict potential failures, maintenance dates, misalignments, and other failure points of turbines,
 introducing innovative techniques when possible. He also led a continuous improvement monitoring for the detection of
 possible defects or the development of new features for the existing analyses, implementing an analysis life cycle
@@ -18,6 +25,7 @@ renewable energy, industrial machinery, and automotive testing, delivering high-
 interaction and performance of clients and products. Proactive, fast-learning, and autonomous, as well as a team player.
 His interests include fluid dynamics, computer vision, artificial intelligence, cryptocurrencies, and data analysis.
 During his spare time, he enjoys riding his motorcycle, skiing, scuba diving, and experimenting with new experiences.
+![img_1.png](img_1.png)
 
 # Vision
 
@@ -32,9 +40,10 @@ During his spare time, he enjoys riding his motorcycle, skiing, scuba diving, an
 
 **Services:**
 
-- **Consulting** 
-- **Technology Solutions** 
+- **Consulting**
+- **Technology Solutions**
 - **Project Management**
+
 ## **Mission Statement**
 
 At Rho Beta Solutions, our mission is to empower a sustainable future by providing innovative energy and technology
