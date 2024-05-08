@@ -33,3 +33,4 @@ paginate~=0.5
 regex>=2022.4
 requests~=2.26
 mkdocs-obsidian-interactive-graph-plugin==0.2.6
+mkdocs-ezlinks-plugin==0.1.14
