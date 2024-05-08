@@ -79,6 +79,9 @@ plugins:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
       minify_html: true
+  - obsidian-interactive-graph
+  - ezlinks
+
 
 # Hooks
 hooks:
@@ -151,12 +154,24 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+
+extra_javascript:
+  - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js
+  - https://fastly.jsdelivr.net/npm/echarts/dist/echarts.min.js
+  - assets/javascripts/interactive_graph.js
+
+extra_css:
+  - assets/stylesheets/interactive_graph.css
+
 # Page tree
 nav:
   - Home: index.md
   - About us: about_us.md
   - Blog:
     - blog/index.md
+    - blog/posts/blog-stocks/stock_price_python.md
+    - blog/posts/data-science-blog/datascience_python.md
+    - blog/posts/github-blog/github-blog.md
 #  - Getting started:
 #    - Installation: getting-started.md
 #    - Creating your site: creating-your-site.md
