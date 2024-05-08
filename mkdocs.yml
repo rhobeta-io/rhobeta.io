@@ -80,6 +80,8 @@ plugins:
   - minify:
       minify_html: true
   - obsidian-interactive-graph
+  - ezlinks
+
 
 # Hooks
 hooks:
@@ -151,6 +153,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
 
 extra_javascript:
   - https://fastly.jsdelivr.net/npm/jquery/dist/jquery.min.js

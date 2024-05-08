@@ -85,7 +85,7 @@ $.getJSON(document.currentScript.src + '/../graph.json', function (graph) {
         categories: [],
         zoom: 2,
         roam: true,
-        draggable: false,
+        draggable: true,
         label: {
           show: true,
           position: 'right',
@@ -98,7 +98,7 @@ $.getJSON(document.currentScript.src + '/../graph.json', function (graph) {
 	  }
 	},
         labelLayout: {
-          hideOverlap: false // true could be a good idea for large graphs
+          hideOverlap: true // true could be a good idea for large graphs
         },
         scaleLimit: {
           min: 0.5,
