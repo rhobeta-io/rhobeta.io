@@ -57,3 +57,5 @@ solutions that transform the way we live and work.
    aspects of our business.
 3. **Excellence:** We strive for excellence in everything we do, whether it's delivering high-quality products or
    services or building strong relationships with our customers.
+
+See our [[blog|Blog]](blog/index.md) to surf through our knowdlege!
