@@ -2,17 +2,17 @@
 date: 2024-05-08
 authors: [brascooriol]
 description: >
-Learn about Git, GitHub and other important tools.
+  Learn about Git, GitHub and other important tools.
 categories:
 
-- Blog
-- Github
-- Git
-- Github Actions
-- Github Issues
-  links:
-- setup/setting-up-a-blog.md
-- plugins/blog.md
+  - Blog
+  - Github
+  - Git
+  - Github Actions
+  - Github Issues
+links:
+  - setup/setting-up-a-blog.md
+  - plugins/blog.md
 
 ---
 
