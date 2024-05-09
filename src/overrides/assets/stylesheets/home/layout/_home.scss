@@ -1,0 +1,46 @@
+/* Remove spacing, as we cannot hide it completely */
+.md-main__inner {
+  margin: 0;
+}
+
+/* Hide table of contents */
+@media screen and (min-width: 60em) {
+  .md-sidebar--secondary {
+    display: none;
+  }
+}
+
+/* Hide navigation */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    display: none;
+  }
+}
+
+// ----------------------------------------------------------------------------
+
+// Hidden
+.mdx-home {
+  overscroll-behavior-y: none;
+  scroll-behavior: smooth;
+
+  &__group {
+    color: var(--md-typeset-color);
+    background-color: var(--md-default-bg-color);
+
+    // &:last-child {
+    //   background-color: var(--md-default-bg-color);
+    // }
+  }
+}
+
+// Main area
+.md-main__inner {
+  margin: 0;
+
+  // Hide unused areas that add margins otherwise
+  > .md-sidebar--secondary,
+  > .md-content {
+    display: none;
+  }
+}
