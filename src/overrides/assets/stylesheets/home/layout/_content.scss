@@ -1,0 +1,25 @@
+// Content area
+.md-content {
+
+  // Content wrapper
+  &__inner {
+    padding: px2rem(104px) 0;
+    margin-bottom: 0;
+
+    // Remove unnecessary spacing
+    &::before {
+      display: none;
+    }
+  }
+
+  // Section header
+  header {
+    display: block;
+    transition: opacity 750ms;
+
+    // Section header is hidden
+    .js &[hidden] {
+      opacity: 0;
+    }
+  }
+}

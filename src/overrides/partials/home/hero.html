@@ -1,0 +1,26 @@
+<section class="mdx-home__group" data-md-color-scheme="slate">
+    <div class="mdx-container">
+        <div class="md-grid md-typeset">
+            <div class="mdx-hero" data-mdx-component="hero">
+
+                <!-- Hero image -->
+                <div class="mdx-hero__image">
+                    <img src="assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
+                </div>
+
+                <!-- Hero content -->
+                <div class="mdx-hero__content">
+                    <h1>Knowledge hub</h1>
+                    <p>{{ config.site_description }}</p>
+                    <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}"
+                        class="md-button md-button--primary">
+                        About us
+                    </a>
+                    <a href="{{ 'blog/' | url }}" title="Go to the blog" class="md-button">
+                        Go Blog
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
