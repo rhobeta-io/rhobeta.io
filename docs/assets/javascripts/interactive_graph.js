@@ -10,14 +10,16 @@ $('[for="__search"], [data-md-component="search"]').first().before('<form class=
 
 // add a div to html in which the graph will be drawn
 function add_graph_div(params) {
-  $('.md-sidebar--secondary').each(function() {
-    $(this).contents().append('<div id="graph" class="graph"></div>');
+  $('.md-sidebar--secondary').each(function () {
+    if (window.location.pathname === "/") {
+      $(this).contents().append('<div id="graph" class="graph" style="display: none;" ></div>');
+    } else {
+      $(this).contents().append('<div id="graph" class="graph"></div>');
+    }
   });
 };
 
-if (window.location.pathname !== "/") { // don't show map if homepage for the moment
-  add_graph_div();
-}
+add_graph_div();
 
 function init_graph(params) {
   var myChart = echarts.init(document.getElementById('graph'), null, {
@@ -35,7 +37,7 @@ function draw_graph(myChart) {
 
   // add click event for nodes
   myChart.on('click', function (params) {
-    if(params.dataType == "node") {
+    if (params.dataType == "node") {
       window.location = params.value;
     }
   });
@@ -97,8 +99,8 @@ $.getJSON(document.currentScript.src + '/../graph.json', function (graph) {
           focus: 'adjacency', // gray out not related nodes on mouse over
           label: {
             fontWeight: "bold"
-	  }
-	},
+          }
+        },
         labelLayout: {
           hideOverlap: true // true could be a good idea for large graphs
         },
@@ -116,11 +118,11 @@ $.getJSON(document.currentScript.src + '/../graph.json', function (graph) {
   draw_graph(myChart);
 });
 
-$("#__palette_0").change(function(){
+$("#__palette_0").change(function () {
   option.backgroundColor = $("body").css("background-color");
   myChart.setOption(option);
 });
-$("#__palette_1").change(function(){
+$("#__palette_1").change(function () {
   option.backgroundColor = $("body").css("background-color");
   myChart.setOption(option);
 });
@@ -130,7 +132,7 @@ $('#graph_button').on('click', function (params) {
   $('#graph').remove();
   $('<div id="modal_background"><div id="graph" class="modal_graph"></div></div>').appendTo('body');
   $('#modal_background').on('click', function (params) {
-    if(params.target === this) {
+    if (params.target === this) {
       $("body").css({ overflow: "", position: "" });
       $('#graph').remove();
       $('#modal_background').remove();
