@@ -9,6 +9,10 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: slack - GitHub Actions Slack integration
+        uses: act10ns/slack@v2.1.0
+        with:
+          status: ${{ job.status }}
       - uses: actions/checkout@v4
       - name: Configure Git Credentials
         run: |
@@ -34,3 +38,7 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: mkdocs gh-deploy --force
+      - name: slack - GitHub Actions Slack integration
+        uses: act10ns/slack@v2.1.0
+        with:
+          status: ${{ job.status }}
