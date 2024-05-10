@@ -11,9 +11,7 @@
 // add a div to html in which the graph will be drawn
 function add_graph_div(params) {
   $('.md-sidebar--secondary').each(function () {
-    if (window.location.pathname === "/") {
-      $(this).contents().append('<div id="graph" class="graph" style="display: none;" ></div>');
-    } else {
+    if (window.location.pathname !== "/") {
       $(this).contents().append('<div id="graph" class="graph"></div>');
     }
   });
@@ -128,19 +126,23 @@ $("#__palette_1").change(function () {
 });
 
 $('#graph_button').on('click', function (params) {
-  $("body").css({ overflow: "hidden", position: "fixed" });
-  $('#graph').remove();
-  $('<div id="modal_background"><div id="graph" class="modal_graph"></div></div>').appendTo('body');
-  $('#modal_background').on('click', function (params) {
-    if (params.target === this) {
-      $("body").css({ overflow: "", position: "" });
-      $('#graph').remove();
-      $('#modal_background').remove();
-      add_graph_div();
-      myChart = init_graph();
-      draw_graph(myChart);
-    }
-  });
-  myChart = init_graph();
-  draw_graph(myChart);
+  if (window.location.pathname === "/") {
+    location.hash = "#knowlege-graph";
+  } else {
+    $("body").css({ overflow: "hidden", position: "fixed" });
+    $('#graph').remove();
+    $('<div id="modal_background"><div id="graph" class="modal_graph"></div></div>').appendTo('body');
+    $('#modal_background').on('click', function (params) {
+      if (params.target === this) {
+        $("body").css({ overflow: "", position: "" });
+        $('#graph').remove();
+        $('#modal_background').remove();
+        add_graph_div();
+        myChart = init_graph();
+        draw_graph(myChart);
+      }
+    });
+    myChart = init_graph();
+    draw_graph(myChart);
+  }
 });
