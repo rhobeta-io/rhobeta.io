@@ -72,10 +72,12 @@
       </div>
     </div>
 
-    <!-- Color palette toggle -->
+    <!-- Color palette toggle // Remove toggle temporarily --> 
     {% if config.theme.palette %}
       {% if not config.theme.palette is mapping %}
-        {% include "partials/palette.html" %}
+        {% if not page.is_homepage %} 
+          {% include "partials/palette.html" %}
+        {% endif %}
       {% endif %}
     {% endif %}
 
