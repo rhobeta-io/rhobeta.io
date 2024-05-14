@@ -76,7 +76,7 @@ $.getJSON(document.currentScript.src + '/../graph.json', function (graph) {
       //}
     ],
     darkMode: "auto",
-    backgroundColor: $("body").css("background-color"),
+    //backgroundColor: $("body").css("background-color"),
     series: [
       {
         name: 'Interactive Graph',
@@ -91,12 +91,14 @@ $.getJSON(document.currentScript.src + '/../graph.json', function (graph) {
         label: {
           show: true,
           position: 'right',
-          formatter: '{b}'
+          formatter: '{b}',
+          backgroundColor: 'transparent',
+          color: 'white'
         },
         emphasis: {
           focus: 'adjacency', // gray out not related nodes on mouse over
           label: {
-            fontWeight: "bold"
+            fontWeight: "normal"
           }
         },
         labelLayout: {
@@ -128,6 +130,7 @@ $("#__palette_1").change(function () {
 $('#graph_button').on('click', function (params) {
   if (window.location.pathname === "/") {
     location.hash = "#knowlege-graph";
+    removeHash();
   } else {
     $("body").css({ overflow: "hidden", position: "fixed" });
     $('#graph').remove();
@@ -144,5 +147,23 @@ $('#graph_button').on('click', function (params) {
     });
     myChart = init_graph();
     draw_graph(myChart);
+    removeHash();
   }
 });
+
+function removeHash () {
+    var scrollV, scrollH, loc = window.location;
+    if ("pushState" in history)
+        history.pushState("", document.title, loc.pathname + loc.search);
+    else {
+        // Prevent scrolling by storing the page's current scroll offset
+        scrollV = document.body.scrollTop;
+        scrollH = document.body.scrollLeft;
+
+        loc.hash = "";
+
+        // Restore the scroll offset, should be flicker free
+        document.body.scrollTop = scrollV;
+        document.body.scrollLeft = scrollH;
+    }
+}
