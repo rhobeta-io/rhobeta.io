@@ -81,7 +81,8 @@ plugins:
       minify_html: true
   - obsidian-interactive-graph
   - ezlinks
-  #- social # to use social export DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib
+  - social: # to use social export DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib
+     enabled: !ENV [CI, false]
 
 # Hooks
 hooks:
