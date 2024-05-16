@@ -1,8 +1,4 @@
 authors:
-  squidfunk:
-    name: Martin Donath
-    description: Creator
-    avatar: https://github.com/squidfunk.png
   brascooriol:
     name: Oriol Brasco
     description: Coowner
@@ -10,10 +6,6 @@ authors:
     url: https://github.com/brascooriol
   rbrasco:
     name: Roger Brasco
-    description: Owner
+    description: Coowner
     avatar: https://github.com/rbrasco.png
     url: https://github.com/rbrasco
-  alexvoss:
-    name: alexvoss
-    description: another
-    avatar: https://github.com/rbrasco.png
