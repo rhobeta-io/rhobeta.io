@@ -2,15 +2,13 @@
   <div class="md-content md-grid" data-md-component="content">
     <div class="md-content__inner">
 
+
+
       <!-- Section header -->
       <header class="md-typeset" hidden>
         <h1 id="last-from-us">
           Last from us
-          <a
-            href="#last-from-us"
-            class="headerlink"
-            title="Permanent link"
-          >
+          <a href="#last-from-us" class="headerlink" title="Permanent link">
             ¶
           </a>
         </h1>
@@ -18,75 +16,27 @@
 
       <!-- Section content -->
       <div class="mdx-highlights">
-
-        <!-- Data Science -->
+        {%for pg in page.meta.last_from_us %}
         <figure class="mdx-highlights__feature" hidden>
-          <a
-            href="blog/2024/05/03/introduction-to-data-science-with-python/"
-            title="Data Science"
-            tabIndex="-1"
-          >
-            <img
-              src="assets/images/highlights/social-cards.png"
-              alt="Data Science with Python"
-              loading="lazy" width="500" height="327"
-            />
+          <a href="{{ pg.url }}" title="{{ pg.title }}" tabIndex="-1">
+            <img src="{{ pg.image }}" alt="{{ pg.title }}" loading="lazy" width="500" height="327" />
           </a>
           <figcaption class="md-typeset">
-            <h2>Data Science with Python</h2>
+            <h2>{{ pg.title }}</h2>
             <p>
-              <strong>Introduction to Data Science with python</strong>.
-              Start your journey of Data Science with Python! In this blog you'll find tips and tricks to start with Python and some
-              useful libraries.
+              <strong>{{ pg.subtitle }}</strong>.
+              {{ pg.description }}
             </p>
-              <a
-                href="blog/2024/05/03/introduction-to-data-science-with-python/"
-                aria-label="Data Science with python"
-              >
-                <span class="twemoji">
-                  {% include ".icons/octicons/arrow-right-24.svg" %}
-                </span>
-                Data Science with python
-              </a>
+            <a href="{{ pg.url }}" aria-label="{{ pg.title }}">
+              <span class="twemoji">
+                {% include ".icons/octicons/arrow-right-24.svg" %}
+              </span>
+              {{ pg.title }}
+            </a>
             </p>
           </figcaption>
         </figure>
-
-        <!-- Github -->
-        <figure class="mdx-highlights__feature" hidden>
-          <a
-            href="blog/2024/05/08/introduction-to-github/"
-            title="Github"
-            tabIndex="-1"
-          >
-            <img
-              src="assets/images/highlights/social-cards.png"
-              alt="Introduction to GitHub"
-              loading="lazy" width="500" height="327"
-            />
-          </a>
-          <figcaption class="md-typeset">
-            <h2>Introduction to GitHub</h2>
-            <p>
-              <strong>Introduction to GitHub</strong>.
-              GitHub is a web-based platform for version control and collaboration on software development projects. It allows
-              developers to manage their code, track changes, and collaborate with others in real-time.
-
-              Get insights on how to use GitHub reading our blog page!
-            </p>
-              <a
-                href="blog/2024/05/08/introduction-to-github/"
-                aria-label="Introduction to GitHub"
-              >
-                <span class="twemoji">
-                  {% include ".icons/octicons/arrow-right-24.svg" %}
-                </span>
-                Introduction to GitHub
-              </a>
-            </p>
-          </figcaption>
-        </figure>
-
+        {% endfor %}
       </div>
     </div>
   </div>
