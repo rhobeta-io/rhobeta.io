@@ -20,7 +20,7 @@ links:
 In recent decades, the advent of the big data era presented a formidable challenge: the efficient storage of vast
 amounts of data. Businesses, grappling with this challenge, prioritized the development of frameworks capable of
 handling massive data storage. Thus, frameworks like Hadoop emerged, offering solutions to store colossal datasets.
-
+<!-- more -->
 Having tackled the storage dilemma, attention shifted towards processing the stored data. This pivotal transition paved
 the way for data science to emerge as the cornerstone for data processing and analysis. Today, data science has evolved
 into an indispensable component of businesses dealing with substantial data volumes. Organizations actively seek data

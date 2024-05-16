@@ -21,6 +21,7 @@ links:
 In this project, we will explore the use of machine learning techniques to predict stock prices. Stock price prediction
 is a crucial task for investors and financial institutions as it allows them to make informed decisions about their
 investments.
+<!-- more -->
 **Predicting the Future Value of Stocks**
 
 Stock price prediction is a crucial task for investors and financial institutions seeking to reap profits from the stock

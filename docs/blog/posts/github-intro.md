@@ -20,7 +20,7 @@ links:
 
 GitHub is a web-based platform for version control and collaboration on software development projects. It allows
 developers to manage their code, track changes, and collaborate with others in real-time.
-
+<!-- more -->
 With GitHub, you can create and manage repositories (or "repos") that contain your project's files and history of
 changes. You can invite others to contribute to your repo by giving them permission to push changes or make pull
 requests.
@@ -154,11 +154,11 @@ changes, and maintain a transparent record of modifications.
 To create a new repo on GitHub, log in and go to the GitHub home page. You can find the “New repository” option under
 the “+” sign next to your profile picture, in the top left corner of the navbar:
 
-![img.png](img.png)
+![img.png](github-intro/img.png)
 
 After clicking the button, GitHub will ask you to name your repo and provide a brief description:
 
-![img_1.png](img_1.png)
+![img_1.png](github-intro/img_1.png)
 
 After completing the details, click the "Create repository" button to establish your new online repository.
 
@@ -210,7 +210,7 @@ To https://github.com/brascooriol/github-blog-tutorial.git
 If you refresh the GitHub page, you'll see note saying a branch with your name has just been pushed into the repository.
 You can also click the 'branches' link to see your branch listed there.
 
-![img_2.png](img_2.png)
+![img_2.png](github-intro/img_2.png)
 
 ## Create a pull request (PR)
 
@@ -218,11 +218,11 @@ A pull request, or PR for short, is a gentle notification to the repository's ma
 to their project by making some modifications to their codebase. This mechanism allows them to carefully review your
 suggested changes and ensure they meet the desired standards before merging them into the main branch.
 
-![img_3.png](img_3.png)
+![img_3.png](github-intro/img_3.png)
 
 And this is what it looks like once you've submitted the PR request:
 
-![img_4.png](img_4.png)
+![img_4.png](github-intro/img_4.png)
 
 You might notice a prominent green button labeled "Merge pull request" at the bottom of the page. Clicking this will
 successfully merge your changes into the primary branch, integrating them seamlessly into the project's codebase.

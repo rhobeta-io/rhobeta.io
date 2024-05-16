@@ -1,11 +1,11 @@
 # Blog
-Welcome to our BLOG!
+<!-- Welcome to our BLOG!
 
 Feel free to surf to our knowledge graph:
 
 
-[[stock_price_python|Stock Price with Python]]
+[[stocks-python|Stock Price with Python]]
 
-[[datascience_python|Introduction to Data Science with Python]]
+[[data-science|Introduction to Data Science with Python]]
 
-[[github-blog|Introduction to Github]]
+[[github-intro|Introduction to Github]] -->
