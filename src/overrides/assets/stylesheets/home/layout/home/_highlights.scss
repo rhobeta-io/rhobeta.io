@@ -10,6 +10,7 @@
     gap: px2rem(64px);
     margin: 0;
     margin-bottom: px2rem(64px);
+    text-align: justify;
 
     // [tablet portrait -]: Adjust layout and spacing
     @include break-to-device(tablet portrait) {
