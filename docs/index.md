@@ -6,13 +6,13 @@ social:
     title: Knowledge hub
 last_from_us:
   - url: blog/2024/05/03/introduction-to-data-science-with-python/
-    image: assets/images/social/blog/posts/data-science-blog/datascience_python.png
+    image: assets/images/social/blog/posts/data-science.png
     title: Data Science with Python
     subtitle: Introduction to Data Science with python
     description: Start your journey of Data Science with Python! In this blog you'll find tips and tricks to start with Python and some useful libraries.
 
   - url: blog/2024/05/08/introduction-to-github/
-    image: assets/images/social/blog/posts/github-blog/github-blog.png
+    image: assets/images/social/blog/posts/github-intro.png
     title: Introduction to GitHub
     subtitle: Introduction to GitHub
     description: |
