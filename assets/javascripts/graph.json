@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Home",
+      "symbolSize": 0,
+      "value": "/"
+    },
+    {
+      "id": "1",
+      "name": "AWS",
+      "symbolSize": 0,
+      "value": "/aws/"
+    },
+    {
+      "id": "2",
+      "name": "Kubernetes",
+      "symbolSize": 0,
+      "value": "/kubernetes/"
+    },
+    {
+      "id": "3",
+      "name": "Networking",
+      "symbolSize": 1,
+      "value": "/networking/"
+    },
+    {
+      "id": "4",
+      "name": "Fundamentals",
+      "symbolSize": 1,
+      "value": "/networking/fundamentals/"
+    },
+    {
+      "id": "5",
+      "name": "Architecture",
+      "symbolSize": 0,
+      "value": "/networking/architectures/"
+    },
+    {
+      "id": "6",
+      "name": "Protocols",
+      "symbolSize": 0,
+      "value": "/networking/protocols/"
+    },
+    {
+      "id": "7",
+      "name": "Security",
+      "symbolSize": 0,
+      "value": "/networking/security/"
+    },
+    {
+      "id": "8",
+      "name": "Management",
+      "symbolSize": 0,
+      "value": "/networking/managment/"
+    },
+    {
+      "id": "9",
+      "name": "Design",
+      "symbolSize": 0,
+      "value": "/networking/design/"
+    },
+    {
+      "id": "10",
+      "name": "CICD",
+      "symbolSize": 0,
+      "value": "/cicd/"
+    },
+    {
+      "id": "11",
+      "name": "Blog",
+      "symbolSize": 0,
+      "value": "/blog/"
+    }
+  ],
+  "links": [
+    {
+      "source": "3",
+      "target": "4"
+    }
+  ]
+}
