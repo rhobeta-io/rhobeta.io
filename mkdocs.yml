@@ -167,7 +167,18 @@ extra_css:
 # Page tree
 nav:
   - Home: index.md
-  - About us: about_us.md
+  - AWS: aws/index.md
+  - Kubernetes: kubernetes/index.md
+  - Networking:
+    - networking/index.md
+    - Fundamentals: networking/fundamentals.md
+    - Architecture: networking/architectures.md
+    - Protocols: networking/protocols.md
+    - Security: networking/security.md
+    - Management: networking/managment.md
+    - Design: networking/design.md
+  - CICD: cicd/index.md
+  # - About us: about_us.md
   - Blog:
     - blog/index.md
     # - blog/posts/stocks-python.md
