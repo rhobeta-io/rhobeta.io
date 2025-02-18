@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Home",
+      "symbolSize": 0,
+      "value": "/"
+    },
+    {
+      "id": "1",
+      "name": "CJR Index",
+      "symbolSize": 0,
+      "value": "/cjr/"
+    },
+    {
+      "id": "2",
+      "name": "CJR Auth",
+      "symbolSize": 0,
+      "value": "/cjr/cjr_auth/"
+    },
+    {
+      "id": "3",
+      "name": "CJR Toolbox",
+      "symbolSize": 0,
+      "value": "/cjr/cjr_toolbox/"
+    },
+    {
+      "id": "4",
+      "name": "CJR Bot",
+      "symbolSize": 0,
+      "value": "/cjr/cjr_bot/"
+    },
+    {
+      "id": "5",
+      "name": "Access Index",
+      "symbolSize": 0,
+      "value": "/access/"
+    },
+    {
+      "id": "6",
+      "name": "Access Go server",
+      "symbolSize": 0,
+      "value": "/access/access_go_server/"
+    },
+    {
+      "id": "7",
+      "name": "Access SQLAlchemy",
+      "symbolSize": 0,
+      "value": "/access/access_sqlalchemy/"
+    },
+    {
+      "id": "8",
+      "name": "Access DB Sync",
+      "symbolSize": 0,
+      "value": "/access/access_db_sync/"
+    },
+    {
+      "id": "9",
+      "name": "Blog",
+      "symbolSize": 0,
+      "value": "/blog/"
+    }
+  ],
+  "links": []
+}
