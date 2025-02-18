@@ -1,4 +1,4 @@
-# Project Index
+# CJR Index
 
 Here you’ll find an overview of three innovative projects, along with links to detailed pages that highlight the key features, benefits, and unique aspects of each tool. Whether you're looking for secure authentication solutions, smart work order management via Telegram, or an integrated toolbox for construction workflows, you'll find all the information you need here.
 

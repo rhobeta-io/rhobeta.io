@@ -1,4 +1,4 @@
-# Project Index
+# Access Index
 
 Here you’ll find an overview of three innovative projects designed to simplify database interactions and modernize legacy systems. Each project offers a unique solution—from synchronizing Microsoft Access databases with Go to integrating Access with Python’s SQLAlchemy. Explore the summaries below and click through to dive deeper into each project.
 
