@@ -6,9 +6,9 @@ Here you’ll find an overview of three innovative projects designed to simplify
 
 ## Table of Contents
 
-- [Access DBSync Go](#access-dbsync-go)
 - [Access Go Server](#access-go-server)
 - [Access SQLAlchemy Engine](#access-sqlalchemy-engine)
+- [Access DBSync Go](#access-dbsync-go)
 
 ---
 
