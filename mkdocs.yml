@@ -167,6 +167,11 @@ extra_css:
 # Page tree
 nav:
   - Home: index.md
+  - CJR:
+    - cjr/index.md
+    - CJR Auth: cjr/cjr_auth.md
+    - CJR Toolbox: cjr/cjr_toolbox.md
+    - CJR Bot: cjr/cjr_bot.md
   - Access:
     - access/index.md
     - Access Go server: access/access_go_server.md
